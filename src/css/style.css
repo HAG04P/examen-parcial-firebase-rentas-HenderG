@@ -1,0 +1,19 @@
+@import './artistas.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+    @apply text-gray-700 p-0 m-0 mb-32;
+}
+
+header {
+    @apply bg-gray-800;
+}
+
+main {
+    @pply mx-auto max-w-2xl;
+}
