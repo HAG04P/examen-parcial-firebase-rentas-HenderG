@@ -11,7 +11,7 @@ console.log('Environment: ', env.mode);
 export default defineConfig({
   root: "./",
   //Add base route if deployiing on production
-  base: env.mode === "production" ? "/Eventos/" : "/",
+  base: env.mode === "production" ? "/examen-parcial-firebase-rentas-HenderG/" : "/",
 
   build: {
     outDir: "docs",
