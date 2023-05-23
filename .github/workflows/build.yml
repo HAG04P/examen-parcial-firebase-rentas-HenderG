@@ -1,4 +1,4 @@
-name: "GH Pages deploy"
+name: "Despliegue de proyectos en GitHub Pages"
 on:
     push:
       branches: 
