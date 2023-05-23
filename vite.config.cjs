@@ -4,7 +4,7 @@ const { resolve } = require('path')
 
 const env = process.env;
 //Set a base route if deploying on github pages
-//env.mode = env.mode || "production";
+env.mode = env.mode || "production";
 
 console.log('Environment: ', env.mode);
 
