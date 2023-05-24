@@ -14,6 +14,8 @@ export default defineConfig({
   base: env.mode === "production" ? "/examen-parcial-firebase-rentas-HenderG/" : "/",
 
   build: {
+
+    target: "esnext",
     outDir: "docs",
     assetsDir: "assets",
     rollupOptions: {
